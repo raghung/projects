@@ -1,0 +1,22 @@
+.update-wrapper { 
+	margin-top:20px; 
+	background-color:rgba(193, 222, 230, 0.075); 
+	padding: 16px; 
+	border: 1px #e3e3e3; 
+}
+.feed-wrapper { 
+	margin-top:20px; 
+	background-color:rgba(193, 222, 230, 0.075); 
+	padding: 16px; 
+	border: 1px #e3e3e3;
+	border-bottom: 1px solid rgb(224, 229, 238);
+}
+
+.divider-wrapper { border-top: 1px solid rgb(206, 218, 233); }
+
+.heading-wrapper {
+	font-size: 21px;
+	font-weight: 200;
+	line-height: 10px;
+	color: #05497a;
+}
