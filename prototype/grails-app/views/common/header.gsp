@@ -1,6 +1,6 @@
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<r:require modules="generalCSS, generalJS, application"/>
 </head>
 <body>
 <div class="content row">

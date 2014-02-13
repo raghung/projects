@@ -10,19 +10,12 @@
 		<title><g:layoutTitle default="Onehaystack"/></title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		
-		<link rel="stylesheet" href="${resource(dir: 'css', file: 'bootstrap_custom.min.css')}" type="text/css">
-		<link rel="stylesheet" href="${resource(dir: 'css', file: 'custom.css')}" type="text/css">
 		<g:layoutHead/>
 		<r:layoutResources />
 	</head>
 	<body>
 		
 		<g:layoutBody/>
-		
-		<g:javascript src="jquery.js"/>
-		<g:javascript src="bootstrap.min.js"/>
-		<g:javascript src="bootstrap3-typeahead.min.js"/>
-		<g:javascript library="application"/>
 		<r:layoutResources />
 	</body>
 </html>
