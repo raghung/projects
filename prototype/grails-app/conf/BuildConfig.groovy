@@ -46,6 +46,7 @@ grails.project.dependency.resolution = {
 
     plugins {
 		compile ':cache:1.0.1'
+		compile ":cache-headers:1.1.5"
 		
 		runtime ":hibernate:$grailsVersion"
         //runtime ":jquery:1.8.3"
@@ -54,8 +55,8 @@ grails.project.dependency.resolution = {
 		runtime ':lesscss-resources:1.3.0.3'
 
         // Uncomment these (or add new ones) to enable additional resources capabilities
-        //runtime ":zipped-resources:1.0"
-        //runtime ":cached-resources:1.0"
+        runtime ":zipped-resources:1.0"
+        runtime ":cached-resources:1.0"
         //runtime ":yui-minify-resources:0.1.5"
 
         build ":tomcat:$grailsVersion"

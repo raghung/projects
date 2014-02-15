@@ -24,7 +24,7 @@
       	</div>
       	<div class="col-sm-4 form-inline">
       		<button class="btn btn-sm btn-primary pull-right">
-     		<span class="glyphicon glyphicon-cloud-download"></span> Adherance Chart</button>
+     		<span class="glyphicon glyphicon-cloud-download"></span> Adherence Chart</button>
      	</div>
   	</div>
   	</div><!-- Patient search -->

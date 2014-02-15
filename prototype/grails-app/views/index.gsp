@@ -11,6 +11,8 @@
 			<section class="sidebar col col-lg-5"/>
 			<h1>Available Prototypes </h1>
 				<ul>
+					<li><g:link uri="/physician-portal"><b>Physician Portal</b></g:link>
+					<li><g:link uri="/patient-portal"><b>Patient Portal</b></g:link>
 					<li><g:link uri="/med-tracker"><b>Medication Tracker(Patient)</b></g:link>
 					<li><g:link uri="/scheduler"><b>Physician Scheduler</b></g:link>
 					%{-- <li class="controller"><g:link controller="${c.logicalPropertyName}">${c.fullName}</g:link></li> --}%
