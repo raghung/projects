@@ -1,20 +1,5 @@
 <html>
 <head>
-<style>
-.msg-class {
-	background: linear-gradient(180deg, rgb(255, 255, 255), rgb(233, 233, 233));
-	font-family: monospace;
-	cursor: pointer;
-}
-.feed-class {
-	background: linear-gradient(180deg, rgb(255, 255, 255), rgb(204, 204, 204));
-	font-style: italic;
-	font-family: serif;
-}
-.feed-class a {
-	color:#5681B9;
-}
-</style>
 </head>
 <body>
 	<div class="col-sm-8">
@@ -53,7 +38,7 @@
 	        	</tr>
 	        </tbody>
 	        </table>	
-	       	<div class="pull-right"><a href="#">more >></a></div><br>
+	       	<div class="pull-right"><a href="#" class="btn btn-xs btn-primary">more >></a></div><br>
 		</section><!--My Patients communication -->
 		
    	   	<div class="well feed-wrapper">
@@ -76,7 +61,7 @@
 	        	</tr>
 	        </tbody>
 	        </table>
-	        <div class="pull-right"><a href="#">more >></a></div>
+	        <div class="pull-right"><a href="#" class="btn btn-xs btn-primary">more >></a></div>
 		</section><!-- Physicians Communication -->
 		
 	</div>
@@ -84,7 +69,7 @@
 	<div class="col-sm-4">
 	    <section class="well update-wrapper">
        		<span class="heading-wrapper">Feeds and News</span>
-       		<button class="btn btn-xs btn-info pull-right" style="margin-top:-8px">Manage</button>
+       		<button class="btn btn-xs btn-primary pull-right" style="margin-top:-8px">Manage</button>
         	<table class="table table-bordered table-hover">
 	        <tbody>
 	        	<tr class="feed-class">
@@ -95,6 +80,25 @@
 	        	<tr class="feed-class">
 	        	<td><a href="http://ht.ly/spdUo" target="_blank">
 	        		<strong>Why Doctors Don’t Google Their Patients</strong></a><br>
+				</td>
+	        	</tr>
+	        </tbody>
+	        </table>
+	        <table class="table table-bordered table-hover">
+	        <tbody>
+	        	<tr class="news-class">
+	        	<td><a href="#" target="_blank">
+	        		<strong>USC is organizing Innovations meet on 1st March 2014</strong> - Los Angeles, CA</a><br>
+				</td>
+	        	</tr>
+	        	<tr class="news-class">
+	        	<td><a href="#" target="_blank">
+	        		<strong>Medical Assistant needed for Oncology practice</strong> - Pasadena, CA</a><br>
+				</td>
+	        	</tr>
+	        	<tr class="news-class">
+	        	<td><a href="#" target="_blank">
+	        		<strong>Radiologic Technologist needed for Oncology practice</strong> - Pasadena, CA</a><br>
 				</td>
 	        	</tr>
 	        </tbody>

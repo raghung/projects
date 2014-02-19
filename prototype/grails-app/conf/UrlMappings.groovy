@@ -7,8 +7,11 @@ class UrlMappings {
 			}
 		}
 
-		"/physician-portal"(view:"/physician-portal/index")
-		"/patient-portal"(view:"/patient-portal/index")
+		"/physician-portal"(controller: "physician")
+		"/physician-portal/messages"(controller: "physician", action: "messages")
+		"/physician-portal/tracker"(controller: "physician", action: "tracker")
+		
+		"/patient-portal"(view:"/patient-portal/home")
 		"/med-tracker"(view:"/med-tracker/index")
 		"/scheduler"(view:"/med-tracker/physician-scheduler")
 		"/"(view:"/index")
