@@ -43,3 +43,7 @@
 .news-class a {
 	color:#5681B9;
 }
+.date-class {
+	font:14px Georgia,times,sans-serif;
+	color: grey;
+}
