@@ -95,4 +95,6 @@ physician {
 	home="home"
     messages="messages"
 	tracker="tracker"
+	information="information"
+	community="community"
 }

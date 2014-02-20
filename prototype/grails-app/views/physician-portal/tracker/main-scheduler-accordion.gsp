@@ -3,31 +3,32 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 </head>
 <body>
-	<%--<div>
-    	<div class="panel-heading">
-      		<h4 class="panel-title">
-        	<a data-toggle="collapse" data-parent="#tracker-accordion" href="#schedule">
-          	<span class="glyphicon glyphicon-calendar"></span> Current Schedule</a>
-      		</h4>
-    	</div>
-    	<div id="schedule" class="panel-collapse collapse in">
-      		<div class="panel-body">
-				<g:include view="/med-tracker/scheduler-current.gsp" />
-      		</div><!-- schedule panel-body -->
-    	</div>
-	</div><!-- Schedule panel -->--%>
-	<div class="row" id="patient-search">
-	<div class="form-group">
-    	<label for="med-name" class="col-sm-2 control-label" style="margin-top:10px">Patient Search:</label>
-    	<div class="col-sm-5 form-inline">
-      		<input type="search" class="form-control" id="patient-name" placeholder="Patient name" autocomplete="off">
-      	</div>
-      	<div class="col-sm-4 form-inline">
-      		<button class="btn btn-sm btn-primary pull-right">
-     		<span class="glyphicon glyphicon-cloud-download"></span> Adherence Chart</button>
-     	</div>
-  	</div>
-  	</div><!-- Patient search -->
+	<section class="row" id="patient-search">
+		<div class="form-group">
+	    	<div class="col-sm-offset-3 col-sm-5 form-inline">
+	    		 <div class="input-group" style="margin-bottom:10px">
+	      			<input type="search" class="form-control" id="schedule-search" placeholder="Search for Patient.." autocomplete="off">
+	      			<span class="input-group-btn">
+	        			<button class="btn btn-primary" id="btn-schedule-search" type="button">Go!</button>
+	      			</span>
+	    		</div>
+	      	</div>
+	  	</div>
+  	</section><!-- Patient search -->
+  	
+  	<div id="patient-details" style="display:none">
+  	<section class="row" style="padding:0px">
+  		<div class="col-md-offset-1">
+			<g:img uri="/images/Roger_Federer.jpg" class="img-responsive img-thumbnail pull-left" style="width:70px"/>
+		</div>
+		<div class="col-sm-5">	
+			<strong>Roger Federer</strong><br><br>
+			<button class="btn btn-sm btn-success">
+	     	<span class="glyphicon glyphicon-cloud-download"></span> Adherence Chart</button>
+	     	<button class="btn btn-sm btn-success">
+	     	<span class="glyphicon glyphicon-cloud-download"></span> Recent Communication</button>
+		</div>
+  	</section>
   	  	
 	<g:include view="/med-tracker/scheduler-current.gsp" />
 	
@@ -48,20 +49,6 @@
 	    	</div>
 	  	</section><!-- Edit panel -->
 	  	
-	  	<%--<section class="panel panel-default">
-	    	<div class="panel-heading">
-	      		<h4 class="panel-title">
-	        	<a data-toggle="collapse" data-parent="#tracker-accordion" href="#med-information">
-	          	<span class="glyphicon glyphicon-question-sign"></span> Med Information</a>
-	      		</h4>
-	    	</div>
-	    	<div id="med-information" class="panel-collapse collapse">
-	      		<div class="panel-body">
-					<g:include view="/med-tracker/tracker-med-information.gsp" />
-	      		</div><!-- panel-body -->
-	    	</div>
-	  	</section><!-- Why panel -->--%>
-	  	
 	  	<section class="panel panel-default">
 	    	<div class="panel-heading">
 	      		<h4 class="panel-title">
@@ -75,9 +62,10 @@
 	      		</div><!-- panel-body -->
 	    	</div>
 	  	</section><!-- History panel -->
+	  	</div><!-- Patient-Details -->
 	</div>
 <g:javascript>
-	$('#patient-name').typeahead({
+	$('#schedule-search').typeahead({
 	  source: [
 	    "Roger Federer",
 	    "Novak Djokovic",
@@ -85,6 +73,21 @@
 	    "Martina Hingis",
 	    "Andy Murray"
 	  ]
+	});
+	
+	function openDiv() {
+		$('#patient-details').css("display","");
+		$('#patient-name').val("");
+	}
+	$('#btn-schedule-search').click(function(){
+		openDiv();
+	});
+	$('#schedule-search').keypress(function(event){
+ 		var keycode = (event.keyCode ? event.keyCode : event.which);
+		if(keycode == '13'){
+			openDiv();	
+		}
+		event.stopPropagation();
 	});
 </g:javascript>  
 </body>

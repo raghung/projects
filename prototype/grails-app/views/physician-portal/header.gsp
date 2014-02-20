@@ -23,25 +23,35 @@
 			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			    	<ul class="nav navbar-nav">
 			    		<g:if test="${curr_page == grailsApplication.config.physician.home}">
-			    		<li class="active"><g:link uri="/physician-portal">Home</g:link></li>
+			    			<li class="active"><g:link uri="/physician-portal">Home</g:link></li>
 			    		</g:if>
 			    		<g:else>
-			    		<li><g:link uri="/physician-portal">Home</g:link></li>
+			    			<li><g:link uri="/physician-portal">Home</g:link></li>
 			    		</g:else>
 			    		<g:if test="${curr_page == grailsApplication.config.physician.messages}">
-			    		<li class="active"><g:link uri="/physician-portal/messages">Messages</g:link></li>
+			    			<li class="active"><g:link uri="/physician-portal/messages">Messages</g:link></li>
 			    		</g:if>
 			    		<g:else>
-			    		<li><g:link uri="/physician-portal/messages">Messages</g:link></li>
+			    			<li><g:link uri="/physician-portal/messages">Messages</g:link></li>
 			    		</g:else>
 			    		<g:if test="${curr_page == grailsApplication.config.physician.tracker}">
-			    		<li class="active"><g:link uri="/physician-portal/tracker">Tracker</g:link></li>
+			    			<li class="active"><g:link uri="/physician-portal/tracker">Tracker</g:link></li>
 			    		</g:if>
 			    		<g:else>
-			    		<li><g:link uri="/physician-portal/tracker">Tracker</g:link></li>
+			    			<li><g:link uri="/physician-portal/tracker">Tracker</g:link></li>
 			    		</g:else>
-			    		<li><a href="#">Information</a></li>
-			      		<li><a href="#">Community</a></li>
+			    		<g:if test="${curr_page == grailsApplication.config.physician.information}">
+			    			<li class="active"><g:link uri="/physician-portal/information">Information</g:link></li>
+			    		</g:if>
+			    		<g:else>
+			    			<li><g:link uri="/physician-portal/information">Information</g:link></li>
+			    		</g:else>
+			    		<g:if test="${curr_page == grailsApplication.config.physician.community}">
+			      			<li class="active"><a href="#">Community</a></li>
+			      		</g:if>
+			      		<g:else>
+			      			<li><a href="#">Community</a></li>
+			      		</g:else>
 			      		<li class="dropdown">
 			      			<a class="dropdown-toggle" data-toggle="dropdown" href="#">Tools <span class="caret"></span></a>
 			      			<ul class="dropdown-menu" role="menu">

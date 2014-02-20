@@ -6,7 +6,7 @@
     overflow: auto;
 }
 #physician-msgs {
-	height: 350px !important;
+	height: 300px !important;
 	overflow: auto;
 }
 </style>
@@ -14,12 +14,21 @@
 <body>
 	<div>
 		<table class="table" style="margin-bottom:0px">
-		<tr><td><input type="text" class="form-control search-query" placeholder="Patients Search.."></td></tr>
+		<tr>
+			<td>
+				<div class="input-group">
+      			<input type="text" class="form-control search-query" placeholder="Patients Search.." autocomplete="off">
+      			<span class="input-group-btn">
+        			<button class="btn btn-primary" type="button">Go!</button>
+      			</span>
+    		</div>
+			</td>
+		</tr>
 		</table> 
         <section id="patient-msgs">
             <table class="table table-hover" style="margin-bottom:0px">
 	        <tbody>
-	        	<tr class="msg-class">
+	        	<tr class="msg-class" style="background:#B2D0FC">
 	        	<td><strong style="color:steelblue">Dr. Novak</strong><br>
 					<span class="pull-right"><g:img uri="/images/medical_attention.jpg" alt="Immediate attention" class="img-responsive" style="width:30px"/></span>
 					<strong style="color:grey">Fever over 104 F</strong><br>
@@ -50,7 +59,16 @@
 		</section><!--My Patients communication -->
 		<br>
 		<table class="table" style="margin-bottom:0px">
-			<tr><td><input type="text" class="form-control search-query" placeholder="Physicians Search.."></td></tr>
+		<tr>
+			<td>
+				<div class="input-group">
+      			<input type="text" class="form-control search-query" placeholder="Physicians Search.." autocomplete="off">
+      			<span class="input-group-btn">
+        			<button class="btn btn-primary" type="button">Go!</button>
+      			</span>
+    		</div>
+			</td>
+		</tr>
 		</table>
         <section id="physician-msgs">	
        		<table class="table table-hover" style="margin-bottom:0px">

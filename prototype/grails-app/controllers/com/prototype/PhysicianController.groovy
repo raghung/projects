@@ -23,7 +23,9 @@ class PhysicianController {
 	}
 	
 	def information() {
+		def page = grailsApplication.config.physician.information
 		
+		render (view: '/physician-portal/information/information.gsp', model:[curr_page: page])
 	}
 	
 	def community() {

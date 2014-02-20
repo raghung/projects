@@ -21,13 +21,14 @@
 	        	<td><strong style="color:steelblue">Roger Federer</strong><br>
 	        		<span class="pull-right"><g:img uri="/images/medical_attention.jpg" alt="Immediate attention" class="img-responsive" style="width:30px"/></span>
 					<strong style="color:grey">Severe Diarrhea</strong><br>
-					<small>I am having fever from yesterday..</small>
+					<small>I am having Severe Diarrhea from today morning..</small>
 	        	</td>
 	        	</tr>
 	        	<tr class="msg-class">
-	        	<td><strong style="color:steelblue">Dr. Novak</strong><br>
-					<strong style="color:grey">Fever over 104 F</strong><br>
-					<small>I am having fever from yesterday..</small>
+	        	<td><strong style="color:steelblue">Mrs. Robinson</strong><br>
+	        		<span class="pull-right"><g:img uri="/images/video_chat.jpg" class="img-responsive" style="width:40px"/></span>
+					<strong style="color:grey">Scars on my shoulder</strong><br>
+					<small>Video conference scheduled at 3 pm today</small>
 	        	</td>
 	        	</tr>
 	        	<tr class="msg-class">

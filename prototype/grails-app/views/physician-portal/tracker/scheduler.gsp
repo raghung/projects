@@ -9,12 +9,8 @@
     <section class="container">
     	<g:include view="/physician-portal/header.gsp"/>
 		<div class="content row">
-			<section class="sidebar col col-lg-2 hidden-sm hidden-xs">
-				<g:include view="/med-tracker/aside-scheduler.gsp" />
-			</section><!-- sidebar -->
-			
-			<section class="main col col-lg-10">
-				<g:include view="/med-tracker/main-scheduler-accordion.gsp" />
+			<section class="main col col-md-12">
+				<g:include view="/physician-portal/tracker/main-scheduler-accordion.gsp" />
 			</section><!-- main -->
 		</div><!-- content -->
     </section><!-- container -->
