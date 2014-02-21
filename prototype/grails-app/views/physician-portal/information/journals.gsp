@@ -2,36 +2,25 @@
 <head></head>
 <body>
 	<div class="well update-wrapper">
-   		<span class="heading-wrapper">Clinical Trials</span>
-   		<button class="btn btn-xs btn-primary pull-right" style="margin-top: -8px" data-toggle="modal" onclick="launchSettingsModal()">
+   		<span class="heading-wrapper">Journals</span>
+   		<span class="pull-right" style="margin-top: -8px">
+   			<button class="btn btn-xs btn-success" onclick="alert('Subscription')">Subscription</button>
+   			<button class="btn btn-xs btn-primary" data-toggle="modal" onclick="launchJournalsModal()">
    				<span class="glyphicon glyphicon-star"></span>&nbsp;Settings</button>
+   		</span>
    		<table class="table table-responsive">
    			<tr>
    				<td>
-   					<a href="http://www.medicalnewstoday.com/articles/261536.php" target="_blank">
-   						MS Treatment That Resets Immune System Shows Promise In Safety Trial</a>
-   					<span class="pull-right">
-	   					<a href="#" data-toggle="tooltip" title="Like">
-	   						<g:img uri="/images/like.jpg" class="img-responsive" style="width:20px"/></a>
-	   					<a href="#" data-toggle="tooltip" title="Dislike">
-   							<g:img uri="/images/dislike.jpg" class="img-responsive" style="width:20px"/></a>
-   					</span>
-   					<br><span class="date-class">${new Date()}</span>
-   					<br><span style="color:steelblue"><small>10 recommended</small></span>
+   					<a href="http://cancerres.aacrjournals.org/content/current" target="_blank">
+        				Cooperation and Antagonism among Cancer Genes: The Renal Cancer Paradigm</a>
+   					<br><span class="date-class">Cancer Research, Jan 2014</span>
    				</td>
    			</tr>
    			<tr>
    				<td>
-   					<a href="http://www.medicalnewstoday.com/articles/261378.php" target="_blank">
-   						New Anticancer Drug Shows Effect Against Melanoma</a>
-   					<span class="pull-right">
-	   					<a href="#" data-toggle="tooltip" title="Like">
-	   						<g:img uri="/images/like.jpg" class="img-responsive" style="width:20px"/></a>
-	   					<a href="#" data-toggle="tooltip" title="Dislike">
-   							<g:img uri="/images/dislike.jpg" class="img-responsive" style="width:20px"/></a>
-   					</span>
-   					<br><span class="date-class">${new Date()}</span>
-   					<br><span style="color:steelblue"><small>2 recommended</small></span>
+   					<a href="http://link.springer.com/article/10.1007/s00432-013-1444-y" target="_blank">
+        				EGFR and KRAS mutational profiling in fresh non-small cell lung cancer (NSCLC) cells</a>
+   					<br><span class="date-class">Clinical Oncology, Dec 2013</span>
    				</td>
    			</tr>
    			<tr>
@@ -41,7 +30,7 @@
     </div>
 
 <!-- Modal -->
-<div class="modal fade" id="info-Modal">
+<div class="modal fade" id="journals-Modal">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
@@ -100,8 +89,8 @@
 </div><!-- /.modal -->
 
 <g:javascript>
-function launchSettingsModal() {
- 	$('#info-Modal').modal({backdrop:true});    
+function launchJournalsModal() {
+ 	$('#journals-Modal').modal({backdrop:true});    
 }
 </g:javascript>
 </body>

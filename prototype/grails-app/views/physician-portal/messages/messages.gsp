@@ -3,7 +3,7 @@
 	<meta name="layout" content="custom"/>
 	<title>Physician portal - Messages</title>
 </head>
-<body id="home">
+<body id="messages">
     <section class="container">
     	<g:include view="/physician-portal/header.gsp"/>
 		<div class="content row">

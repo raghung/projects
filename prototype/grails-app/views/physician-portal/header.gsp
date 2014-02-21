@@ -47,10 +47,10 @@
 			    			<li><g:link uri="/physician-portal/information">Information</g:link></li>
 			    		</g:else>
 			    		<g:if test="${curr_page == grailsApplication.config.physician.community}">
-			      			<li class="active"><a href="#">Community</a></li>
+			      			<li class="active"><g:link uri="/physician-portal/community">Community</g:link></li>
 			      		</g:if>
 			      		<g:else>
-			      			<li><a href="#">Community</a></li>
+			      			<li><g:link uri="/physician-portal/community">Community</g:link></li>
 			      		</g:else>
 			      		<li class="dropdown">
 			      			<a class="dropdown-toggle" data-toggle="dropdown" href="#">Tools <span class="caret"></span></a>

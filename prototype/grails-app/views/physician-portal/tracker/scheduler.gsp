@@ -5,7 +5,7 @@
 	<title>Physician portal - Tracker</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 </head>
-<body id="home">
+<body id="tracker">
     <section class="container">
     	<g:include view="/physician-portal/header.gsp"/>
 		<div class="content row">
