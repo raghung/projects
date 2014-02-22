@@ -4,7 +4,7 @@
 <body>
 	<div class="col-sm-8">
    	   	<div class="well feed-wrapper">
-       		<span class="heading-wrapper">My Patients Communication</span>
+       		<span class="heading-wrapper">Patients Communication</span>
        		<span class="pull-right" style="color:red"><strong>Attention:</strong> 2</span>
         </div>
         <section>
@@ -43,7 +43,7 @@
 		</section><!--My Patients communication -->
 		
    	   	<div class="well feed-wrapper">
-    		<span class="heading-wrapper">Physicians Communication</span>
+    		<span class="heading-wrapper">New Patient Requests</span>
         </div>
         <section>	
        		<table class="table table-hover">
@@ -105,10 +105,11 @@
 	        </tbody>
 	        </table>	
 	    </section>
-	</div>       
+	</div> 
+	<input type="text" id="test" value="Testing"/>      
 <g:javascript>
 function gotoMessages() {
-    window.location.href = "${createLink(controller: 'physician', action: 'messages',  absolute='true')}";
+    window.location.href = "${createLink(controller: 'staff', action: 'messages',  absolute='true')}";
 }
 </g:javascript>  
 </body>

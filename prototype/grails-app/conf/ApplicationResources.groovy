@@ -4,7 +4,8 @@ modules = {
     }
 	
 	generalJS {
-		resource url: 'js/jQuery.js'
+		dependsOn 'jquery'
+		//resource url: 'js/jQuery.js'
 		resource url: 'js/bootstrap.min.js'
 		resource url: 'js/bootstrap3-typeahead.min.js'
 	}

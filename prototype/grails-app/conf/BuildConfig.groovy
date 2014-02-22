@@ -50,7 +50,8 @@ grails.project.dependency.resolution = {
 		
 		runtime ":hibernate:$grailsVersion"
         //runtime ":jquery:1.8.3"
-        runtime ":resources:1.2"
+		runtime ":jquery:1.11.0.1"
+		runtime ":resources:1.2"
 		runtime ":database-migration:1.3.2"
 		runtime ':lesscss-resources:1.3.0.3'
 

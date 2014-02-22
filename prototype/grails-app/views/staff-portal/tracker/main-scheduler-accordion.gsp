@@ -30,7 +30,7 @@
 		</div>
   	</section>
   	  	
-	<g:include view="/physician-portal/tracker/scheduler-current.gsp" />
+	<g:include view="/staff-portal/tracker/scheduler-current.gsp" />
 	
 	<div class="panel-group" id="tracker-accordion">
 	  	
@@ -44,7 +44,7 @@
 	    	<%--<div id="edit-medication" class="panel-collapse collapse in">--%>
 	    	<div id="edit-medication" class="panel-collapse collapse in">
 	      		<div class="panel-body">
-					<g:include view="/physician-portal/tracker/scheduler-edit.gsp" />
+					<g:include view="/staff-portal/tracker/scheduler-edit.gsp" />
 	      		</div><!-- panel-body -->
 	    	</div>
 	  	</section><!-- Edit panel -->
@@ -58,7 +58,7 @@
 	    	</div>
 	    	<div id="history" class="panel-collapse collapse">
 	      		<div class="panel-body">
-					<g:include view="/physician-portal/tracker/scheduler-history.gsp" />
+					<g:include view="/staff-portal/tracker/scheduler-history.gsp" />
 	      		</div><!-- panel-body -->
 	    	</div>
 	  	</section><!-- History panel -->
