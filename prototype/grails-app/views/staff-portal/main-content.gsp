@@ -44,19 +44,22 @@
 		
    	   	<div class="well feed-wrapper">
     		<span class="heading-wrapper">New Patient Requests</span>
+    		<a href="#" class="btn btn-xs btn-success pull-right">Approve</a>
         </div>
         <section>	
        		<table class="table table-hover">
 	        <tbody>
-	        	<tr class="msg-class">
+	        	<tr class="approve-class">
 	        	<td><strong style="color:steelblue"><a href="#">Maria Sharpova</a></strong><br>
 					<strong style="color:grey">For Dr. Dilip Parekh</strong><br>
 	        	</td>
+	        	<td width="10%"><input type="checkbox" checked></td>
 	        	</tr>
-	        	<tr class="msg-class">
+	        	<tr class="approve-class">
 	        	<td><strong style="color:steelblue"><a href="#">Maria Sharpova</a></strong><br>
 					<strong style="color:grey">For Dr. Martina Hingis</strong><br>
 	        	</td>
+	        	<td width="10%"><input type="checkbox" checked></td>
 	        	</tr>
 	        </tbody>
 	        </table>

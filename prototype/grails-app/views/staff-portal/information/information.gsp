@@ -6,7 +6,7 @@
 <body id="information">
     <section class="container">
     	<g:include view="/staff-portal/header.gsp"/>
-		<div class="content row">
+		<%--<div class="content row">
 			<section class="leftbar col col-md-6">
 				<g:include view="/staff-portal/information/clinical-trials.gsp" />
 			</section><!-- Clinical trials -->
@@ -14,7 +14,7 @@
 			<section class="rightbar col col-md-6">
 				<g:include view="/staff-portal/information/journals.gsp" />
 			</section><!-- Journals -->
-		</div><!-- Content -->
+		</div><!-- Content -->--%>
 		
 		<div class="content row">
 			<section class="col-md-12">

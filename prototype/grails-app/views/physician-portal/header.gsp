@@ -74,7 +74,7 @@
 						</sec:ifNotLoggedIn>
 						<sec:ifLoggedIn>
 				    		<li class="user-class">Signed in as <b>${sec.username()}</b></li>
-			      			<li><g:link controller="logout"> Log out</g:link></li>
+			      			<li><g:link controller="logout"> Logout</g:link></li>
 			      		</sec:ifLoggedIn>
 				    </ul>
 			    </div><!-- /.navbar-collapse -->

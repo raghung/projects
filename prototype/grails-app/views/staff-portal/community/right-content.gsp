@@ -9,15 +9,8 @@
    			<tr>
    				<td>
    					<a href="#" onclick="launchMeetsModal()">
-   						<b>Cancer Research Conference</b></a>
-   					<br><span class="date-class">Las Vegas, 10:30 am tomorrow</span>
-   				</td>
-   			</tr>
-   			<tr>
-   				<td>
-   					<a href="#" onclick="launchMeetsModal()">
-   						<b>Keck Physicians Meet</b></a>
-   					<br><span class="date-class">Los Angeles, 7 pm on 26th Feb 2014</span>
+   						<b>Staff Party</b></a>
+   					<br><span class="date-class">USC Cafetaria, 4:30 pm tomorrow</span>
    				</td>
    			</tr>
    		</table>	

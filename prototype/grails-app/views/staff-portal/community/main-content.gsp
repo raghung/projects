@@ -22,12 +22,12 @@
       	<div>
   			<p>
 		<div style="margin-left: 10px">    			
-   			<span class="msg-status">Attending <a href="#">Cancer Research Conference</a> at Las Vegas tomorrow.</span>
+   			<span class="msg-status">Attending <a href="#">Staff party</a> at USC cafeteria tomorrow.</span>
    			<span class="msg-date"> - 1 hour ago</span><br>
    			<div class="update-wrapper" style="margin-top: 0px">
    			<ul>
-    			<li><a href="#">Dr. Dan Curtis</a>: Will be there!!</li>
-    			<li><a href="#">Dr. Oscar Goodman, Jr.</a>: I am giving the presentation.</li>
+    			<li><a href="#">Sania</a>: Will be there!!</li>
+    			<li><a href="#">Maria</a>: I am giving the presentation.</li>
     		</ul>
     		<input type="text" placeholder="My comment..." class="form-control">
     		<br><button class="btn btn-xs btn-success pull-right" style="margin-top: -10px">Submit</button>
@@ -45,9 +45,9 @@
 		<div style="margin-left: 10px">    			
    			<span class="msg-status">
    			<div class="pull-left" style="margin-right:10px">
-   				<p><g:img uri="/images/Prasad_Adusumili.jpg" style="width:50px"></g:img></p>
+   				<p><g:img uri="/images/no_photo.jpg" style="width:50px"></g:img></p>
    	        </div>
-      	    <a href="#">Dr. Prasad Adusumili</a><br>In Vegas for <a>Cancer Research Conference</a></span>
+      	    <a href="#">Maria Johnson</a><br>Started a new job!! <a></a></span>
    			<span class="msg-date"> - 1 day ago</span><br>
     		<div class="update-wrapper" style="margin-top: 0px">
     		<input type="text" class="form-control" placeholder="My comment...">
