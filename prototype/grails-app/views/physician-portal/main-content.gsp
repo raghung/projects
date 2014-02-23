@@ -32,9 +32,9 @@
 	        	</td>
 	        	</tr>
 	        	<tr class="msg-class" onclick="gotoMessages()">
-	        	<td><strong style="color:steelblue">Roger Federer</strong><br>
-					<strong style="color:grey">Severe Diarrhea</strong><br>
-					<small>I am having fever from yesterday..</small>
+	        	<td><strong style="color:steelblue">Leander Paes</strong><br>
+					<strong style="color:grey">Medication before operation</strong><br>
+					<small>I am taking below medications..</small>
 	        	</td>
 	        	</tr>
 	        </tbody>
@@ -49,15 +49,15 @@
        		<table class="table table-hover">
 	        <tbody>
 	        	<tr class="msg-class">
-	        	<td><strong style="color:steelblue">Dr. Novak</strong><br>
-					<strong style="color:grey">Fever over 104 F</strong><br>
-					<small>I am having fever from yesterday..</small>
+	        	<td><strong style="color:steelblue">Dr. Martina</strong><br>
+					<strong style="color:grey">Referring a case for liver cancer</strong><br>
+					<small>My patient is having trouble with..</small>
 	        	</td>
 	        	</tr>
 	        	<tr class="msg-class">
-	        	<td><strong style="color:steelblue">Roger Federer</strong><br>
-					<strong style="color:grey">Severe Diarrhea</strong><br>
-					<small>I am having fever from yesterday..</small>
+	        	<td><strong style="color:steelblue">Dr. Na Li</strong><br>
+					<strong style="color:grey">Need lab results opinion</strong><br>
+					<small>I need opinion on couple of tests..</small>
 	        	</td>
 	        	</tr>
 	        </tbody>

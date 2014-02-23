@@ -1,5 +1,8 @@
 package com.prototype
 
+import grails.plugin.springsecurity.annotation.Secured;
+
+@Secured(['ROLE_DOCTOR'])
 class PhysicianController {
 	
 	static defaultAction = "home"

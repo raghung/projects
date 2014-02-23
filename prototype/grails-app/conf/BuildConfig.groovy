@@ -36,6 +36,7 @@ grails.project.dependency.resolution = {
         //mavenRepo "http://repository.codehaus.org"
         //mavenRepo "http://download.java.net/maven/2/"
         //mavenRepo "http://repository.jboss.com/maven2/"
+		mavenRepo "http://repo.spring.io/milestone/"
     }
 
     dependencies {
@@ -47,6 +48,7 @@ grails.project.dependency.resolution = {
     plugins {
 		compile ':cache:1.0.1'
 		compile ":cache-headers:1.1.5"
+		compile ":spring-security-core:2.0-RC2"
 		
 		runtime ":hibernate:$grailsVersion"
         //runtime ":jquery:1.8.3"

@@ -16,8 +16,9 @@
 				      <span class="icon-bar"></span>
 				      <span class="icon-bar"></span>
 				    </button>
-				    <a class="navbar-brand" href="#"># My Portal #<%-- <img src="<%=request.getContextPath()%>/images/onehaystack_logo.gif" style="height:20px" alt="logo for onehaystack"> --%></a>
+				    <g:link uri="/" class="navbar-brand"># My Portal #<%-- <img src="<%=request.getContextPath()%>/images/onehaystack_logo.gif" style="height:20px" alt="logo for onehaystack"> --%></g:link>
 			    </div>
+
 			
 			    <!-- Collect the nav links, forms, and other content for toggling -->
 			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -69,7 +70,13 @@
 				      <button type="submit" class="btn btn-default">Submit</button>
 				    </form> -->
 			    	<ul class="nav navbar-nav navbar-right">
-			      		<li><a href="#">Logout</a></li>
+			    		<sec:ifNotLoggedIn>
+			    			<li><g:link controller="login" action="auth">Login</g:link></li>	
+						</sec:ifNotLoggedIn>
+						<sec:ifLoggedIn>
+				    		<li class="user-class">Signed in as <b>${sec.username()}</b></li>
+			      			<li><g:link controller="logout"> Log out</g:link></li>
+			      		</sec:ifLoggedIn>
 				    </ul>
 			    </div><!-- /.navbar-collapse -->
 			</nav>

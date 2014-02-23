@@ -32,9 +32,9 @@
 	        	</td>
 	        	</tr>
 	        	<tr class="msg-class" onclick="gotoMessages()">
-	        	<td><strong style="color:steelblue">Roger Federer</strong><br>
-					<strong style="color:grey">Severe Diarrhea</strong><br>
-					<small>I am having fever from yesterday..</small>
+	        	<td><strong style="color:steelblue">Leander Paes</strong><br>
+					<strong style="color:grey">Medication before operation</strong><br>
+					<small>I am taking below medications..</small>
 	        	</td>
 	        	</tr>
 	        </tbody>
@@ -49,15 +49,13 @@
        		<table class="table table-hover">
 	        <tbody>
 	        	<tr class="msg-class">
-	        	<td><strong style="color:steelblue">Dr. Novak</strong><br>
-					<strong style="color:grey">Fever over 104 F</strong><br>
-					<small>I am having fever from yesterday..</small>
+	        	<td><strong style="color:steelblue"><a href="#">Maria Sharpova</a></strong><br>
+					<strong style="color:grey">For Dr. Dilip Parekh</strong><br>
 	        	</td>
 	        	</tr>
 	        	<tr class="msg-class">
-	        	<td><strong style="color:steelblue">Roger Federer</strong><br>
-					<strong style="color:grey">Severe Diarrhea</strong><br>
-					<small>I am having fever from yesterday..</small>
+	        	<td><strong style="color:steelblue"><a href="#">Maria Sharpova</a></strong><br>
+					<strong style="color:grey">For Dr. Martina Hingis</strong><br>
 	        	</td>
 	        	</tr>
 	        </tbody>
@@ -106,7 +104,7 @@
 	        </table>	
 	    </section>
 	</div> 
-	<input type="text" id="test" value="Testing"/>      
+   
 <g:javascript>
 function gotoMessages() {
     window.location.href = "${createLink(controller: 'staff', action: 'messages',  absolute='true')}";

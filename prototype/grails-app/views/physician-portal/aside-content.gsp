@@ -11,7 +11,6 @@
 	<strong>Role</strong>
 	<select class="form-control">
 		<option value="PH">Physician</option>
-		<option value="ST">Staff</option>
 		<option value="PT">Patient</option>
 	</select>
 	</div>
