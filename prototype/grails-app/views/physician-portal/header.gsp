@@ -34,6 +34,12 @@
 			    		<g:else>
 			    			<li><g:link uri="/physician-portal/messages">Messages</g:link></li>
 			    		</g:else>
+			    		<g:if test="${curr_page == grailsApplication.config.physician.todo}">
+			    			<li class="active"><g:link uri="/physician-portal/todo">ToDo</g:link></li>
+			    		</g:if>
+			    		<g:else>
+			    			<li><g:link uri="/physician-portal/todo">ToDo</g:link></li>
+			    		</g:else>
 			    		<g:if test="${curr_page == grailsApplication.config.physician.tracker}">
 			    			<li class="active"><g:link uri="/physician-portal/tracker">Tracker</g:link></li>
 			    		</g:if>

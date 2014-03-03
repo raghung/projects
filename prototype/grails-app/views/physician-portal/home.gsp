@@ -11,8 +11,12 @@
 				<g:include view="/physician-portal/aside-content.gsp" />
 			</section><!-- sidebar -->
 			
-			<section class="main col col-md-10">
+			<section class="main col col-md-7">
 				<g:include view="/physician-portal/main-content.gsp" />
+			</section><!-- main -->
+			
+			<section class="righbar col col-md-3">
+				<g:include view="/physician-portal/right-content.gsp" />
 			</section><!-- main -->
 		</div><!-- content -->
     </section><!-- container -->

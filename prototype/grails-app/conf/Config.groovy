@@ -73,6 +73,7 @@ environments {
 physician {
 	home="home"
     messages="messages"
+	todo="todo"
 	tracker="tracker"
 	information="information"
 	community="community"

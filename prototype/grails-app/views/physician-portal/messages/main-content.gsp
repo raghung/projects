@@ -8,11 +8,14 @@
 </style>
 </head>
 <body>
+	<div><a href="#" class="btn btn-sm btn-primary">Advanced Search&nbsp; <span class="glyphicon glyphicon-search"></span></a></div>
 	<div class="well update-wrapper col-sm-12">
 		<div style="color:steelblue">
 			<g:img uri="/images/Novak_Djokovic.jpg" class="img-responsive img-thumbnail" style="width:50px"/>
 			<strong>&nbsp;Sub: Fever over 104 F</strong>
-			<span class="pull-right"><a href="#" class="btn btn-sm btn-warning">Schedule Video Chat</a></span>
+			<span class="pull-right"><a href="#" class="btn btn-sm btn-primary">To Do <span class="glyphicon glyphicon-tasks"></span></a></span>
+			<span class="pull-right"><a href="#" class="btn btn-sm btn-primary">Forward <span class="glyphicon glyphicon-export"></span></a>&nbsp;</span>
+			<span class="pull-right"><a href="#" class="btn btn-sm btn-warning">Schedule Video Chat &nbsp;<span class="glyphicon glyphicon-facetime-video"></span></a>&nbsp;</span>
 		</div>
 		<div id="msg-content" class="update-wrapper" style="margin-top:0px">
 			<span class="msg-date pull-right">1 June 2013, 9:30 am</span>

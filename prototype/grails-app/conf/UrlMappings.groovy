@@ -9,6 +9,7 @@ class UrlMappings {
 
 		"/physician-portal"(controller: "physician")
 		"/physician-portal/messages"(controller: "physician", action: "messages")
+		"/physician-portal/todo"(controller: "physician", action: "todo")
 		"/physician-portal/tracker"(controller: "physician", action: "tracker")
 		"/physician-portal/information"(controller: "physician", action: "information")
 		"/physician-portal/community"(controller: "physician", action: "community")

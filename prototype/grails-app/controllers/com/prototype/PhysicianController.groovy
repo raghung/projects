@@ -19,6 +19,12 @@ class PhysicianController {
 		render (view: '/physician-portal/messages/messages.gsp', model:[curr_page: page])
 	}
 	
+	def todo() {
+		def page = grailsApplication.config.physician.todo
+		
+		render (view: '/physician-portal/todo/todo.gsp', model:[curr_page: page])
+	}
+	
 	def tracker() {
 		def page = grailsApplication.config.physician.tracker
 		
