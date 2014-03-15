@@ -21,7 +21,7 @@
       			<span class="input-group-btn">
         			<button class="btn btn-primary" type="button">Go!</button>
       			</span>
-    		</div>
+    			</div>
 			</td>
 		</tr>
 		</table> 

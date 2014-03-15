@@ -8,7 +8,12 @@
 </style>
 </head>
 <body>
-	<div><a href="#" class="btn btn-sm btn-primary">Advanced Search&nbsp; <span class="glyphicon glyphicon-search"></span></a></div>
+	<div class="input-group">
+		<input type="text" class="form-control search-query" placeholder="Search for anything in Messages.." autocomplete="off">
+		<span class="input-group-btn">
+ 			<button class="btn btn-primary" type="button">Go!</button>
+		</span>
+	</div>
 	<div class="well update-wrapper col-sm-12">
 		<div style="color:steelblue">
 			<g:img uri="/images/Novak_Djokovic.jpg" class="img-responsive img-thumbnail" style="width:50px"/>
